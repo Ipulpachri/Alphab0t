@@ -1238,22 +1238,22 @@ const bayarLimit = (sender, amount) => {
             
             const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night Kak 🌚 ${pushname}`
 }
         if(time2 < "19:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night Kak 🌚 ${pushname}`
 }
         if(time2 < "18:00:00"){
-        var ucapannya2 = `Afternoon 🌅 ${pushname}`
+        var ucapannya2 = `Afternoon Kak 🌅 ${pushname}`
 }
         if(time2 < "15:00:00"){
-        var ucapannya2 = `GoodDay 🌞 ${pushname}`
+        var ucapannya2 = `GoodDay Kak 🌞 ${pushname}`
 }
         if(time2 < "11:00:00"){
-        var ucapannya2 = `Morning 🌄 ${pushname}`
+        var ucapannya2 = `Morning Kak 🌄 ${pushname}`
 }
         if(time2 < "05:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night Kak 🌚 ${pushname}`
 }
 function clockString(ms) {
       let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000);
@@ -2260,7 +2260,7 @@ let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
-╭─❒ 「 Bot Info 」 
+╭─❒ 「 Fachri Botz Info 」 
 ├ Creator :  @${koko.split('@')[0]}
 ├ Powered  : @${ini_mark.split('@')[0]}
 ├ Prefix :   ${prefix}
